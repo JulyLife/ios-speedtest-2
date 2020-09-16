@@ -8,11 +8,15 @@
 
 */
 var numbers = [1,2,3,4,5,6,7,8,9,10]
-
-
-
+for e in numbers{
+    print("\(e)")
+}
 /*:
 
 # BONUS🎁 قم بكتابه كود يقوم بطباعة الأرقام الزوجية فقط 
 */
-
+for ghanima in numbers{
+    if ghanima%2 == 0{
+        print("\(ghanima)")
+    }
+}
